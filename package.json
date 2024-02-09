@@ -1,0 +1,30 @@
+{
+  "name": "usb2snes-client",
+  "version": "1.0.0",
+  "description": "Node.js client library for the USB2SNES WebSocket server",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "doc": "npx jsdoc2md ./index.js > ./API.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djrideout/node-usb2snes-client.git"
+  },
+  "keywords": [
+    "usb2snes",
+    "server"
+  ],
+  "author": "D.J. Rideout",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djrideout/node-usb2snes-client/issues"
+  },
+  "homepage": "https://github.com/djrideout/node-usb2snes-client#readme",
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^8.0.1"
+  }
+}
